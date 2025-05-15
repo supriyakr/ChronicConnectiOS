@@ -6,11 +6,29 @@ ChronicConnect addresses a critical need in healthcare technology by creating su
 ## Features
 
 - **Home Feed**: View and interact with posts from the community
+  
+<img width="357" alt="image" src="https://github.com/user-attachments/assets/f3f95a25-8d00-4c7b-b24a-9d6a6155db6a" />
+
 - **Search**: Find users and content related to specific chronic conditions
+  
+<img width="343" alt="image" src="https://github.com/user-attachments/assets/ff2ba315-9324-4529-bc79-d9bb29fc41ca" />
+
 - **Post Creation**: Share your experiences, questions, and insights
+  
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/d3f7adbb-ef4d-412b-be3d-d1665874ed0a" />
+
 - **Profile Management**: Customize your profile and manage your content
+
+<img width="448" alt="image" src="https://github.com/user-attachments/assets/2cfbf641-106d-40ef-acb6-4634bb518af9" />
+
 - **Condition Tags**: Tag posts with relevant chronic conditions for better discoverability
+  
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/7e6df5cc-22ad-4d8d-a7f6-915fbea9dd37" />
+
 - **Social Interactions**: Like, comment, and engage with community content
+
+<img width="341" alt="image" src="https://github.com/user-attachments/assets/a6ae22d5-0d62-4530-b4be-9d27214cafff" />
+
 
 ## Technical Details
 
@@ -61,10 +79,4 @@ When adding new features:
 2. Follow the MVVM pattern with separate View and ViewModel files
 3. Add any necessary models or extensions
 
-## License
 
-[Include license information here]
-
-## Contact
-
-[Your contact information or project team contact]
