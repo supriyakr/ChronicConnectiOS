@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947303A52DD06BED000E78DD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473039D2DD06BED000E78DD /* ProfileView.swift */; };
+		947303A62DD06BED000E78DD /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473039E2DD06BED000E78DD /* ProfileViewModel.swift */; };
+		947303A72DD06BED000E78DD /* HomeFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947303A02DD06BED000E78DD /* HomeFeedViewModel.swift */; };
+		947303A82DD06BED000E78DD /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947303A12DD06BED000E78DD /* HomeFeedView.swift */; };
+		947303A92DD06BED000E78DD /* PostCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947303A32DD06BED000E78DD /* PostCreationView.swift */; };
+		947303AA2DD06BED000E78DD /* PostCreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947303A42DD06BED000E78DD /* PostCreationViewModel.swift */; };
+		947303BF2DD06C13000E78DD /* DataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947303BC2DD06C13000E78DD /* DataGenerator.swift */; };
+		947303C02DD06C13000E78DD /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947303BD2DD06C13000E78DD /* CoreDataStack.swift */; };
+		947303C12DD06C13000E78DD /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947303BE2DD06C13000E78DD /* DataModels.swift */; };
+		947303C42DD06C65000E78DD /* ChronicConnect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 947303C22DD06C65000E78DD /* ChronicConnect.xcdatamodeld */; };
+		94764B3D2DD066FE00E9C012 /* ChronicConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94764B3C2DD066FE00E9C012 /* ChronicConnectApp.swift */; };
+		94764B3F2DD066FE00E9C012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94764B3E2DD066FE00E9C012 /* ContentView.swift */; };
+		94764B412DD0670000E9C012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94764B402DD0670000E9C012 /* Assets.xcassets */; };
+		94764B442DD0670000E9C012 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94764B432DD0670000E9C012 /* Preview Assets.xcassets */; };
+		94764B462DD0670000E9C012 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94764B452DD0670000E9C012 /* Persistence.swift */; };
+		94764B492DD0670000E9C012 /* ChronicConnect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94764B472DD0670000E9C012 /* ChronicConnect.xcdatamodeld */; };
+		947996732DD43A180014C578 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947996712DD43A180014C578 /* SearchView.swift */; };
+		947996742DD43A180014C578 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947996722DD43A180014C578 /* SearchViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9473039D2DD06BED000E78DD /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9473039E2DD06BED000E78DD /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		947303A02DD06BED000E78DD /* HomeFeedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeedViewModel.swift; sourceTree = "<group>"; };
+		947303A12DD06BED000E78DD /* HomeFeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
+		947303A32DD06BED000E78DD /* PostCreationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCreationView.swift; sourceTree = "<group>"; };
+		947303A42DD06BED000E78DD /* PostCreationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCreationViewModel.swift; sourceTree = "<group>"; };
+		947303BC2DD06C13000E78DD /* DataGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataGenerator.swift; sourceTree = "<group>"; };
+		947303BD2DD06C13000E78DD /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		947303BE2DD06C13000E78DD /* DataModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		947303C32DD06C65000E78DD /* ChronicConnect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChronicConnect.xcdatamodel; sourceTree = "<group>"; };
+		94764B392DD066FE00E9C012 /* ChronicConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChronicConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94764B3C2DD066FE00E9C012 /* ChronicConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronicConnectApp.swift; sourceTree = "<group>"; };
+		94764B3E2DD066FE00E9C012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94764B402DD0670000E9C012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94764B432DD0670000E9C012 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94764B452DD0670000E9C012 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		94764B482DD0670000E9C012 /* ChronicConnect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChronicConnect.xcdatamodel; sourceTree = "<group>"; };
+		947996712DD43A180014C578 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		947996722DD43A180014C578 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94764B362DD066FE00E9C012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9473039B2DD06BED000E78DD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				947996702DD43A180014C578 /* Search */,
+				9473039C2DD06BED000E78DD /* Profile */,
+				9473039F2DD06BED000E78DD /* HomeFeed */,
+				947303A22DD06BED000E78DD /* PostCreation */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9473039C2DD06BED000E78DD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9473039D2DD06BED000E78DD /* ProfileView.swift */,
+				9473039E2DD06BED000E78DD /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9473039F2DD06BED000E78DD /* HomeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				947303A02DD06BED000E78DD /* HomeFeedViewModel.swift */,
+				947303A12DD06BED000E78DD /* HomeFeedView.swift */,
+			);
+			path = HomeFeed;
+			sourceTree = "<group>";
+		};
+		947303A22DD06BED000E78DD /* PostCreation */ = {
+			isa = PBXGroup;
+			children = (
+				947303A32DD06BED000E78DD /* PostCreationView.swift */,
+				947303A42DD06BED000E78DD /* PostCreationViewModel.swift */,
+			);
+			path = PostCreation;
+			sourceTree = "<group>";
+		};
+		947303BB2DD06C13000E78DD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				947303BC2DD06C13000E78DD /* DataGenerator.swift */,
+				947303BD2DD06C13000E78DD /* CoreDataStack.swift */,
+				947303BE2DD06C13000E78DD /* DataModels.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		94764B302DD066FE00E9C012 = {
+			isa = PBXGroup;
+			children = (
+				94764B3B2DD066FE00E9C012 /* ChronicConnect */,
+				94764B3A2DD066FE00E9C012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94764B3A2DD066FE00E9C012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94764B392DD066FE00E9C012 /* ChronicConnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94764B3B2DD066FE00E9C012 /* ChronicConnect */ = {
+			isa = PBXGroup;
+			children = (
+				947303C22DD06C65000E78DD /* ChronicConnect.xcdatamodeld */,
+				947303BB2DD06C13000E78DD /* Core */,
+				9473039B2DD06BED000E78DD /* Features */,
+				94764B3C2DD066FE00E9C012 /* ChronicConnectApp.swift */,
+				94764B3E2DD066FE00E9C012 /* ContentView.swift */,
+				94764B402DD0670000E9C012 /* Assets.xcassets */,
+				94764B452DD0670000E9C012 /* Persistence.swift */,
+				94764B472DD0670000E9C012 /* ChronicConnect.xcdatamodeld */,
+				94764B422DD0670000E9C012 /* Preview Content */,
+			);
+			path = ChronicConnect;
+			sourceTree = "<group>";
+		};
+		94764B422DD0670000E9C012 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94764B432DD0670000E9C012 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		947996702DD43A180014C578 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				947996712DD43A180014C578 /* SearchView.swift */,
+				947996722DD43A180014C578 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94764B382DD066FE00E9C012 /* ChronicConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94764B4C2DD0670000E9C012 /* Build configuration list for PBXNativeTarget "ChronicConnect" */;
+			buildPhases = (
+				94764B352DD066FE00E9C012 /* Sources */,
+				94764B362DD066FE00E9C012 /* Frameworks */,
+				94764B372DD066FE00E9C012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChronicConnect;
+			productName = ChronicConnect;
+			productReference = 94764B392DD066FE00E9C012 /* ChronicConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94764B312DD066FE00E9C012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					94764B382DD066FE00E9C012 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 94764B342DD066FE00E9C012 /* Build configuration list for PBXProject "ChronicConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94764B302DD066FE00E9C012;
+			productRefGroup = 94764B3A2DD066FE00E9C012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94764B382DD066FE00E9C012 /* ChronicConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94764B372DD066FE00E9C012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94764B442DD0670000E9C012 /* Preview Assets.xcassets in Resources */,
+				94764B412DD0670000E9C012 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94764B352DD066FE00E9C012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947303A62DD06BED000E78DD /* ProfileViewModel.swift in Sources */,
+				947303A92DD06BED000E78DD /* PostCreationView.swift in Sources */,
+				947996742DD43A180014C578 /* SearchViewModel.swift in Sources */,
+				94764B462DD0670000E9C012 /* Persistence.swift in Sources */,
+				947303C42DD06C65000E78DD /* ChronicConnect.xcdatamodeld in Sources */,
+				947303C02DD06C13000E78DD /* CoreDataStack.swift in Sources */,
+				947303BF2DD06C13000E78DD /* DataGenerator.swift in Sources */,
+				94764B3F2DD066FE00E9C012 /* ContentView.swift in Sources */,
+				947303A52DD06BED000E78DD /* ProfileView.swift in Sources */,
+				947303C12DD06C13000E78DD /* DataModels.swift in Sources */,
+				947303AA2DD06BED000E78DD /* PostCreationViewModel.swift in Sources */,
+				947996732DD43A180014C578 /* SearchView.swift in Sources */,
+				947303A72DD06BED000E78DD /* HomeFeedViewModel.swift in Sources */,
+				947303A82DD06BED000E78DD /* HomeFeedView.swift in Sources */,
+				94764B3D2DD066FE00E9C012 /* ChronicConnectApp.swift in Sources */,
+				94764B492DD0670000E9C012 /* ChronicConnect.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94764B4A2DD0670000E9C012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94764B4B2DD0670000E9C012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94764B4D2DD0670000E9C012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChronicConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NG44CU9VX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.ChronicConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94764B4E2DD0670000E9C012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChronicConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NG44CU9VX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.ChronicConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94764B342DD066FE00E9C012 /* Build configuration list for PBXProject "ChronicConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94764B4A2DD0670000E9C012 /* Debug */,
+				94764B4B2DD0670000E9C012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94764B4C2DD0670000E9C012 /* Build configuration list for PBXNativeTarget "ChronicConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94764B4D2DD0670000E9C012 /* Debug */,
+				94764B4E2DD0670000E9C012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		947303C22DD06C65000E78DD /* ChronicConnect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				947303C32DD06C65000E78DD /* ChronicConnect.xcdatamodel */,
+			);
+			currentVersion = 947303C32DD06C65000E78DD /* ChronicConnect.xcdatamodel */;
+			path = ChronicConnect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		94764B472DD0670000E9C012 /* ChronicConnect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94764B482DD0670000E9C012 /* ChronicConnect.xcdatamodel */,
+			);
+			currentVersion = 94764B482DD0670000E9C012 /* ChronicConnect.xcdatamodel */;
+			path = ChronicConnect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94764B312DD066FE00E9C012 /* Project object */;
+}
