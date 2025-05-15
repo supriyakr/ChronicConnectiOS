@@ -78,5 +78,41 @@ When adding new features:
 1. Create a new directory under the Features/ folder
 2. Follow the MVVM pattern with separate View and ViewModel files
 3. Add any necessary models or extensions
+   
+## Functional Requirements
+
+User Authentication
+
+- User registration and login system
+- Profile creation and management
+- Privacy controls for sharing health information
+
+Content Creation & Interaction
+
+- Create and publish posts with text and media
+- Comment on posts from other users
+- Like/react to posts
+- Share posts within the platform or externally
+- Tag posts with specific chronic illness categories
+- Follow other users with similar conditions
+
+Search & Discovery
+
+- Search for posts by illness tag, keywords, or user
+- Discover trending topics in specific illness communities
+- Filter content based on relevance to user's conditions
+
+Optional AI Component
+
+- Sentiment analysis of posts to identify support needs
+- Content recommendations based on user interests/condition
+- Automated moderation for supportive community guidelines
+
+Non-Functional Requirements
+
+- User-friendly interface designed for accessibility
+- Performance optimized for smooth scrolling and interaction
+- Secure handling of sensitive health information
+- Offline capability for viewing previously loaded content
 
 
